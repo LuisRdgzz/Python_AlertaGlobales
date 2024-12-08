@@ -1,0 +1,4 @@
+# created by virtualenv automatically
+# Ignorar todo excepto lo necesario (archivos de configuración y requirements)
+*.pyc
+__pycache__

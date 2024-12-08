@@ -1,0 +1,54 @@
+Earthquakes
+Operations pertaining to Earthquakes
+
+region
+integer($int32)
+(query)
+Regional boundaries defined as follows:
+
+
+
+150 - North America and Hawaii:
+(Canada, Mexico,USA)
+100 - Central America:
+(Costa Rica,El Salvador,Guatemala,Honduras,Nicaragua,Panama)
+90 - Caribbean:
+(Antigua and Barbuda, Barbados, Cuba, Dominican Republic, French Guiana, Grenada, Guadeloupe, Haiti, Jamaica, Martinique, Puerto Rico, Saint Lucia, Saint Vincent and the Grenadines, Trinidad and Tobago, U.S. Virgin Islands)
+160 - South America:
+(Argentina,Bolivia,Brazil,Chile,Colombia,Ecuador,Peru,Venezuela)
+70 - Atlantic Ocean
+15 - Northern Africa:
+(Algeria, Egypt, Libya, Morocco, Sudan, Tunisia)
+10 - Central, Western and S. Africa:
+Burundi, Cameroon, Canary Islands, Central African Republic, Congo, Coite DIvoire, Ethiopia, Gabon, Ghana, Guinea, Guyana, Malawi, Mozambique, Rwanda, Sierra Leone, South Africa Tanzania, Togo, Uganda, Zambia)
+20 - Antarctica
+120 - Northern and Western Europe:
+(Austria, Belgium, France, Germany, Iceland, Netherlands, Switzerland, United Kingdom)
+130 - Southern Europe:
+(Azores (Portugal), Black Sea, Bosnia-Herzegovina, Croatia, Cyprus, Greece, Italy, Macedonia, Portugal, Serbia and Montenegro, Slovenia, Spain)
+110 - Eastern Europe:
+(Bulgaria, Hungary, Poland, Romania, Slovakia, Ukraine)
+140 - Middle East:
+(Iran, Iraq, Israel, Jordan, Lebanon,Saudi Arabia,Syria, Turkey, Yemen)
+40 - Central Asia and Caucasus:
+(Afghanistan, Armenia, Azerbaijan, Black Sea, Western China, Georgia, Kazakhstan, Kyrgyzstan, Mongolia, Russia, Tajikistan, Turkmenistan, Uzbekistan)
+30 - East Asia:
+(Eastern China, East China Sea, Japan, Japan Sea, North Korea, South Korea, Taiwan, Yellow Sea)
+60 - S. and SE. Asia and Indian Ocean:
+(Bangladesh, Bhutan, India, Indian Ocean, Myanmar (Burma), Nepal, Pakistan, Sri Lanka, Thailand, Vietnam)
+170 - Central and South Pacific:
+(Australia, Caroline Islands, Celebes Sea, Cook Islands, Fiji, French Polynesia, Guam, Indonesia, Kermadec Islands (New Zealand), Kiribati, Malaysia, Rep. of Marshall Islands, Fed. States of Micronesia, New Caledonia, New Zealand, Northern Mariana Islands, Pacific Ocean, Papua New Guinea, Philippines, Samoa, Solomon Islands, Solomon sea, South china sea, South Georgia and the South Sandwich Islands, Tasman Sea, Timor Sea, Tonga, Vanuatu)
+80 - Bering Sea
+50 - Kamchatka and Kuril Islands
+lista de regiones
+
+https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/earthquakes?itemsPerPage=200&region=100
+
+datos necesesarios para mostrar en la tabla
+year
+mont
+day
+locationName
+eqMagnitude
+deaths -cantidad de muertos
+housesDestroyed

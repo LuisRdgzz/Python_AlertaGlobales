@@ -1,0 +1,58 @@
+Tsunami Events
+Operations pertaining to Tsunami Events
+
+causa del tsunami
+causeCode
+string
+(query)
+The source of the tsunami:
+
+0 - Unknown
+1 - Earthquake
+2 - Questionable Earthquake
+3 - Earthquake and Landslide
+4 - Volcano and Earthquake
+5 - Volcano, Earthquake, and Landslide
+6 - Volcano
+7 - Volcano and Landslide
+8 - Landslide
+9 - Meteorological
+10 - Explosion
+11 - Astronomical Tide
+example: 2,9,11
+
+Regional boundaries defined as follows:
+
+87 - Alaska (including Aleutian Islands)
+40 - Black Sea and Caspian Sea
+74 - Caribbean Sea
+78 - Central Africa
+84 - China, North and South Korea, Philippines, Taiwan
+81 - E Coast Australia, New Zealand, South Pacific Is.
+75 - East Coast USA and Canada, St Pierre and Miquelon
+76 - Gulf of Mexico
+80 - Hawaii, Johnston Atoll, Midway I
+60 - Indian Ocean (including west coast of Australia)
+83 - Indonesia (Pacific Ocean) and Malaysia
+85 - Japan
+86 - Kamchatka and Kuril Islands
+50 - Mediterranean Sea
+82 - New Caledonia, New Guinea, Solomon Is., Vanuatu
+73 - Northeast Atlantic Ocean
+72 - Northwest Atlantic Ocean
+30 - Red Sea and Persian Gulf
+70 - Southeast Atlantic Ocean
+71 - Southwest Atlantic Ocean
+77 - West Coast of Africa
+88 - West Coast of North and Central America
+89 - West Coast of South America
+example: 87,30,89
+
+
+
+https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/tsunamis/events?causeCode=3&itemsPerPage=30&page=1&regionCode=88
+https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/tsunamis/events?causeCode=3&itemsPerPage=30&minYear=1975&page=1&regionCode=88
+
+
+---Datos a mostrar--
+pais -- nombre  de la ubicacion -- año -- mes -- dia

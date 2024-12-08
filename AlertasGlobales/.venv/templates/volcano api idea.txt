@@ -1,0 +1,80 @@
+Esto seria como la ubicacion de los volcanes
+segun la region que selecionemos
+
+Volcano Location
+Operations pertaining to Volcano Location
+
+
+string
+(query)
+Regional boundaries defined as follows:
+
+
+
+01 - Mediterranean and West Asia
+02 - Africa and Red Sea
+03 - Middle East and Indian Ocean
+04 - New Zealand to Fiji
+05 - Melanesia and Australia
+06 - Indonesia
+07 - Philippines and SE Asia
+08 - Japan, Taiwan, Marianas
+09 - Kuril Islands
+10 - Kamchatka and Mainland Asia
+11 - Alaska
+12 - Canada and Western USA
+13 - Hawaii and Pacific Ocean
+14 - Mexico and Central America
+15 - South America
+16 - West Indies
+17 - Iceland and Arctic Ocean
+18 - Atlantic Ocean
+19 - Antarctica
+Available values : 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+
+la url donde se obtiene la informacion
+https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/volcanolocs?itemsPerPage=200&page=1&region=14 el numero 14 es la region que en este caso es Mexico and Central America
+
+
+datos que se mostraran en la tabla
+country
+name
+longitude
+elevation
+status
+
+PARA MOSTRAR LAS ERUCINES VOLCANICAS
+
+eruption
+boolean
+(query)
+
+REGION
+Regional boundaries defined as follows:
+
+
+
+01 - Mediterranean and West Asia
+02 - Africa and Red Sea
+03 - Middle East and Indian Ocean
+04 - New Zealand to Fiji
+05 - Melanesia and Australia
+06 - Indonesia
+07 - Philippines and SE Asia
+08 - Japan, Taiwan, Marianas
+09 - Kuril Islands
+10 - Kamchatka and Mainland Asia
+11 - Alaska
+12 - Canada and Western USA
+13 - Hawaii and Pacific Ocean
+14 - Mexico and Central America
+15 - South America
+16 - West Indies
+17 - Iceland and Arctic Ocean
+18 - Atlantic Ocean
+19 - Antarctica
+
+14
+
+https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/volcanoes?eruption=true&region=14

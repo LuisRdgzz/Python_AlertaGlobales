@@ -1,0 +1,8 @@
+Ideas y codigo para trabajar en Proyectos ambientalista
+
+usaremos
+este url para buscar los paises o regiones
+https://search.worldbank.org/api/v3/wds?format=json&qterm=EASTERN%20AND%20SOUTHERN%20AFRICA&fl=docdt,count
+
+esta url es para obtener la lista de paises
+https://search.worldbank.org/api/v3/wds?format=xml&fct=count_exact,lang_exact&rows=0
